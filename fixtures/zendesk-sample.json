@@ -1,0 +1,8 @@
+{
+  "ticket": {
+    "id": 90210,
+    "subject": "Rash after second dose",
+    "description": "I developed a rash and some nausea after the second dose. Should I stop?",
+    "requester": { "name": "Casey" }
+  }
+}

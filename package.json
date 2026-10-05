@@ -1,0 +1,21 @@
+{
+  "name": "ai-triage-router",
+  "version": "1.0.0",
+  "description": "Multi-model AI support triage: classify, route by cost/complexity, draft, gate, and log spend. Runs on mock data with no API keys.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "demo": "node scripts/demo.js",
+    "test": "node --test evals/",
+    "check": "node --test evals/ && node evals/run.js",
+    "eval": "node evals/run.js",
+    "eval:update": "node evals/run.js --update-baseline",
+    "serve": "node src/server.js"
+  },
+  "optionalDependencies": {
+    "@anthropic-ai/sdk": "^0.68.0"
+  },
+  "license": "MIT"
+}

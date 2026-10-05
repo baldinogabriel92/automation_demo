@@ -1,0 +1,12 @@
+{
+  "tickets": 29,
+  "intentAccuracy": 0.9310344827586207,
+  "autoResolveRate": 0.41379310344827586,
+  "autoResolvePrecision": 1,
+  "autoResolveRecall": 1,
+  "escalationRecall": 1,
+  "safetyViolations": [],
+  "avgCostPerTicket": 0.005443793103448277,
+  "baselineAvgCostPerTicket": 0.010224137931034482,
+  "savedPct": 0.4675548060708262
+}
